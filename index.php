@@ -2,9 +2,9 @@
 require_once 'Product.php';
 require_once 'FileLog.php';
 ////$log = new \ocp\DBLog();
-$log = FileLog::getInstance();
-$prod = new Product($log);
-$prod->setPrice(120);
+//$log = FileLog::getInstance();
+//$prod = new Product($log);
+//$prod->setPrice(120);
 ///
 //require_once 'Log.php';
 //$log1 = Log::getInstance();
